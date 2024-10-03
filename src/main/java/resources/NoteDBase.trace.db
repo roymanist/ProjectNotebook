@@ -1,0 +1,22 @@
+2024-10-03 11:36:58.332316+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "nameNote" не найден
+Column "nameNote" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at com.finish.ProjectNotebook.repository.DataControllBD.readDbase(DataControllBD.java:51)
+	at com.finish.ProjectNotebook.ProjectNotebookApplication.main(ProjectNotebookApplication.java:21)
+2024-10-03 11:37:34.400570+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "text" не найден
+Column "text" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at com.finish.ProjectNotebook.repository.DataControllBD.readDbase(DataControllBD.java:52)
+	at com.finish.ProjectNotebook.ProjectNotebookApplication.main(ProjectNotebookApplication.java:21)
